@@ -1,0 +1,35 @@
+== 2016-09-13 ==
+/* Format Specifiers */
+
+Format Specifier    Description
+================    ============================================================
+    %d, %i          Signed integer decimal
+      %o            Unsigned integer
+    %x, %X          Signed hexadecimal (lowercase, UPPERCASE)
+      %o            Signed octal value
+      %c            Single character (accepts integer).
+      %f            Floating point decimal format.
+    %e, %E          Floating point exponential format (lowercase, UPPERCASE).
+    %g, %G          Floating point format. Uses lowercase/UPPERCASE exponential
+                    format if exponent is less than -4 or not less than
+                    precision, decimal format otherwise.
+      %s            String (null-terminated array of characters)
+      %p            Pointer (memory address)
+      %n            Int pointer; returns number of chars written. No output.
+      %%            No argument is converted; results in a '%' character
+================    ============================================================
+
+Length Modifier    Description
+===============    =============================================================
+       h           %hi - Short integer.
+       l           %li - Long integer, %lf - "long float" (double).
+       L           %Lf - Long double.
+===============    =============================================================
+
+
+How to do if-else statements, for loops.
+
+2 questions involving writing functions
+    One will involve an array, one will involve using a switch statement
+2 questions involving writing a complete C program.
+    Both will involve basic input/output (<stdio.h>)

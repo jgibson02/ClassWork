@@ -1,0 +1,31 @@
+1. helloA.c is  116 bytes,
+   helloA.o is 1496 bytes, and
+   helloA   is 8632 bytes, for a total of 10244 bytes.
+
+2. helloB.c is  152 bytes,
+   helloB.o is 1512 bytes, and
+   helloB   is 8632 bytes, for a total of 10296 bytes.
+   The output of helloA and helloB are identical.
+
+3. helloC.c is  178 bytes,
+   helloC.o is 1648 bytes, and
+   helloC   is 8680 bytes, for a total of 10506 bytes.
+   The output of helloC is also identical to the outputs of helloA and helloB.
+
+4. helloD.c is  172 bytes,
+   helloD.o is 1632 bytes, and
+   helloD   is 8632 bytes, for a total of 10436 bytes.
+   The output of helloD puts the output of each statement on a separate line, resulting in
+   each statement on their own line, including the "\n", and an empty line inherently 
+   created by puts().
+
+5. helloE.c is  322 bytes,
+   helloE.o is 1784 bytes, and
+   helloE   is 8632 bytes, for a total of 10738 bytes.
+   The output of helloE is identical to the outputs of helloA, helloB, and helloC.
+
+6. helloA has the smallest source file.
+
+7. helloA has the smallest object file.
+
+8. helloA, helloB, helloD, and helloE all held a tie for the smallest executable file.

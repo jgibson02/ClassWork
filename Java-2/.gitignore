@@ -1,0 +1,79 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/Voronoi/nbproject/private/
+/Voronoi/build/
+/Homework-3/dist/
+/GUIs/build/
+/GUIs/nbproject/private/
+/Homework-3/build/
+/Homework-3/nbproject/private/
+/Bagpipes/build/
+/Bill/build/
+/Bill/dist/
+/CustomClasses/build/
+/EuclidianGCDCalculator/build/
+/Exam-1/dist/
+/Exam-1/build/
+/Fronds/dist/
+/Fronds/build/
+/God/build/
+/God/dist/
+/GUIs/dist/
+/Homework-2/build/
+/Homework-2/dist/
+/Homework-1/build/
+/Homework-1/dist/
+/Inheritance/build/
+/MCDickButt/build/
+/Interfaces/build/
+/Exam-3/nbproject/private/
+/Exam-3/build/
+/Exam-3/dist/
+/Homework-4/nbproject/private/
+/Homework-4/build/
+/Homework-4/dist/

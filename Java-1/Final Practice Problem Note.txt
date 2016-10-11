@@ -1,0 +1,2 @@
+For the exam, create a class that represents your own string, and as private data have an array of characters, for example starting with 10 characters. You can even let the constructor take an int that represents the maximum number of characters in the array.
+There should be a method that would could add characters, substring, reverse, etc.
